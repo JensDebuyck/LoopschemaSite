@@ -15,7 +15,7 @@ body {
 
 /* Stijlen voor de container van het schema */
 #schema-details {
-    background-color: #fff;
+    background-color: #eeeeee;
     margin-top: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -37,6 +37,7 @@ h1 {
 label {
     font-weight: bold;
     font-size: 1.1em;
+    margin-bottom: 5px;
 }
 
 /* Stijlen voor de week-titel */
@@ -53,7 +54,7 @@ select {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: #eeeeee;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: border-color 0.3s, box-shadow 0.3s;
 }
