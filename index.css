@@ -1,26 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+/* Algemene stijlen */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    display:flex;
+    font-family: "Assistant", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    color: #333;
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
+/* Stijlen voor de container van het schema */
 #schema-details {
+    background-color: #fff;
     margin-top: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    
 }
 
+/* Stijlen voor de titel */
 h1 {
-    color: #333;
+    color: #489C9B;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
+/* Stijlen voor labels */
 label {
     font-weight: bold;
+    font-size: 1.1em;
 }
 
+/* Stijlen voor de week-titel */
 #week-title {
-    margin-bottom: 10px;
+    color: #489C9B;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+/* Stijlen voor de select dropdown */
+select {
+    font-size: 1em;
+    font-weight: 400;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+select:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+/* Stijlen voor de week-gegevens */
+p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+strong {
+    color: #333;
+    font-weight: 500;
+}
+
+span{
+    font-weight: 300;
+}
+
+/* Responsive ontwerp */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #schema-details {
+        width: 100%;
+    }
 }
