@@ -1,4 +1,3 @@
-// Het JSON-bestand laden
 fetch('trainingschema.json')
     .then(response => {
         if (!response.ok) {
@@ -9,6 +8,7 @@ fetch('trainingschema.json')
     .then(schema => {
         if (Array.isArray(schema)) {
             const select = document.getElementById('keuze');
+            const markCompleteButton = document.getElementById('mark-complete');
 
             // Dropdown menu vullen
             schema.forEach((item, index) => {
@@ -34,6 +34,28 @@ fetch('trainingschema.json')
                     localStorage.setItem('selectedWeekIndex', this.value);
                 } else {
                     clearWeekDetails();
+                }
+            });
+
+            // Event listener voor de "Markeer als voltooid" knop
+            markCompleteButton.addEventListener('click', function() {
+                let currentWeekIndex = parseInt(select.value, 10);
+                if (!isNaN(currentWeekIndex)) {
+                    // Markeer de huidige week als voltooid door deze uit localStorage te verwijderen
+                    localStorage.removeItem('selectedWeekIndex');
+
+                    // Verwijder de huidige week uit de dropdown (optioneel)
+                    select.remove(select.selectedIndex);
+
+                    // Toon de volgende week, indien beschikbaar
+                    currentWeekIndex++;
+                    if (currentWeekIndex < schema.length) {
+                        select.value = currentWeekIndex;
+                        updateWeekDetails(schema[currentWeekIndex]);
+                        localStorage.setItem('selectedWeekIndex', currentWeekIndex);
+                    } else {
+                        clearWeekDetails();
+                    }
                 }
             });
         } else {
