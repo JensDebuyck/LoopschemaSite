@@ -39,14 +39,14 @@ fetch('trainingschema.json')
 
             // Event listener voor de "Markeer als voltooid" knop
             markCompleteButton.addEventListener('click', function() {
-                let currentWeekIndex = parseInt(select.value, 10);
-                if (!isNaN(currentWeekIndex)) {
-                    // Markeer de huidige week als voltooid door deze uit localStorage te verwijderen
-                    localStorage.removeItem('selectedWeekIndex');
-
-                    // Verwijder de huidige week uit de dropdown (optioneel)
-                    select.remove(select.selectedIndex);
-
+                // Verkrijg de huidige weekindex op basis van de dropdown
+                let currentWeekIndex = select.value; // Bewaar de waarde direct
+                if (currentWeekIndex !== null) {
+                    // Markeer de huidige week als voltooid
+                    const currentOption = select.options[currentWeekIndex];
+                    currentOption.textContent += ' (Voltooid)'; // Voeg "(Voltooid)" toe aan de tekst
+                    currentOption.disabled = true; // Optie uitschakelen zodat deze niet opnieuw kan worden geselecteerd
+                    
                     // Toon de volgende week, indien beschikbaar
                     currentWeekIndex++;
                     if (currentWeekIndex < schema.length) {

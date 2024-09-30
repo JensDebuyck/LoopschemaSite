@@ -1,74 +1,74 @@
 [
     {
         "week": 1,
-        "maandag": "5 km tempo run (5:30/km)",
-        "woensdag": "Intervaltraining (4 x 400m snel (5:00/km), 200m wandel/rust)",
-        "vrijdag": "7 km rustige duurloop (6:00-6:20/km)"
+        "maandag": "4 km easy run (6:00/km)",
+        "woensdag": "Intervaltraining: 1 km inlopen, 4 x 400m snel (5:50/km) met 90 sec rust, 1 km uitlopen",
+        "vrijdag": "5 km rustige duurloop (6:00/km)"
     },
     {
         "week": 2,
-        "maandag": "5 km tempo run (5:30/km)",
-        "woensdag": "Intervaltraining (4 x 400m snel (5:00/km), 200m wandel/rust)",
-        "vrijdag": "7 km rustige duurloop (6:00-6:20/km)"
+        "maandag": "5 km easy run (5:55/km)",
+        "woensdag": "Tempo run: 5 km in 5:40/km",
+        "vrijdag": "Heuveltraining: 5 x 200m heuvelop (5:50/km), jog naar beneden"
     },
     {
         "week": 3,
-        "maandag": "5 km tempo run (5:30/km)",
-        "woensdag": "Intervaltraining (4 x 400m snel (5:00/km), 200m wandel/rust)",
-        "vrijdag": "7 km rustige duurloop (6:00-6:20/km)"
+        "maandag": "5 km easy run (5:50/km)",
+        "woensdag": "Intervaltraining: 1 km inlopen, 5 x 500m snel (5:40/km) met 2 min rust, 1 km uitlopen",
+        "vrijdag": "6 km rustige duurloop (5:55/km)"
     },
     {
         "week": 4,
-        "maandag": "5 km tempo run (5:30/km)",
-        "woensdag": "Intervaltraining (4 x 400m snel (5:00/km), 200m wandel/rust)",
-        "vrijdag": "7 km rustige duurloop (6:00-6:20/km)"
+        "maandag": "6 km easy run (5:50/km)",
+        "woensdag": "Intervaltraining: 1 km inlopen, 6 x 400m snel (5:35/km) met 90 sec rust, 1 km uitlopen",
+        "vrijdag": "Heuveltraining: 4 x 300m heuvelop (5:50/km), jog naar beneden"
     },
     {
         "week": 5,
-        "maandag": "6 km tempo run (5:25/km)",
-        "woensdag": "Intervaltraining (6 x 400m snel (5:00/km), 200m wandel/rust)",
-        "vrijdag": "9 km rustige duurloop (6:00-6:20/km)"
+        "maandag": "7 km easy run (5:45/km)",
+        "woensdag": "Tempo run: 5 km in 5:35/km",
+        "vrijdag": "8 km rustige duurloop (5:55/km)"
     },
     {
         "week": 6,
-        "maandag": "6 km tempo run (5:25/km)",
-        "woensdag": "Intervaltraining (6 x 400m snel (5:00/km), 200m wandel/rust)",
-        "vrijdag": "9 km rustige duurloop (6:00-6:20/km)"
+        "maandag": "6.5 km easy run (5:45/km)",
+        "woensdag": "Intervaltraining: 1 km inlopen, 5 x 800m snel (5:30/km) met 2 min rust, 1 km uitlopen",
+        "vrijdag": "Heuveltraining: 6 x 200m heuvelop (5:50/km), jog naar beneden"
     },
     {
         "week": 7,
-        "maandag": "6 km tempo run (5:25/km)",
-        "woensdag": "Intervaltraining (6 x 400m snel (5:00/km), 200m wandel/rust)",
-        "vrijdag": "9 km rustige duurloop (6:00-6:20/km)"
+        "maandag": "8 km easy run (5:40/km)",
+        "woensdag": "Intervaltraining: 1 km inlopen, 4 x 1 km snel (5:25/km) met 3 min rust, 1 km uitlopen",
+        "vrijdag": "6 km rustige duurloop (5:55/km)"
     },
     {
         "week": 8,
-        "maandag": "6 km tempo run (5:25/km)",
-        "woensdag": "Intervaltraining (6 x 400m snel (5:00/km), 200m wandel/rust)",
-        "vrijdag": "9 km rustige duurloop (6:00-6:20/km)"
+        "maandag": "7 km easy run (5:40/km)",
+        "woensdag": "Tempo run: 6 km in 5:30/km",
+        "vrijdag": "Heuveltraining: 5 x 300m heuvelop (5:50/km), jog naar beneden"
     },
     {
         "week": 9,
-        "maandag": "7 km tempo run (5:20/km)",
-        "woensdag": "Intervaltraining (8 x 400m snel (4:55-5:00/km), 200m wandel/rust)",
-        "vrijdag": "12 km rustige duurloop (6:00-6:20/km)"
+        "maandag": "8 km easy run (5:35/km)",
+        "woensdag": "Intervaltraining: 1 km inlopen, 5 x 1 km snel (5:20/km) met 3 min rust, 1 km uitlopen",
+        "vrijdag": "8 km rustige duurloop (5:50/km)"
     },
     {
         "week": 10,
-        "maandag": "7 km tempo run (5:20/km)",
-        "woensdag": "Intervaltraining (8 x 400m snel (4:55-5:00/km), 200m wandel/rust)",
-        "vrijdag": "12 km rustige duurloop (6:00-6:20/km)"
+        "maandag": "6 km easy run (5:35/km)",
+        "woensdag": "Intervaltraining: 1 km inlopen, 4 x 800m snel (5:20/km) met 2 min rust, 1 km uitlopen",
+        "vrijdag": "Heuveltraining: 8 x 200m heuvelop (5:50/km), jog naar beneden"
     },
     {
         "week": 11,
-        "maandag": "7 km tempo run (5:20/km)",
-        "woensdag": "Intervaltraining (8 x 400m snel (4:55-5:00/km), 200m wandel/rust)",
-        "vrijdag": "12 km rustige duurloop (6:00-6:20/km)"
+        "maandag": "7 km easy run (5:30/km)",
+        "woensdag": "Tempo run: 5 km in 5:25/km",
+        "vrijdag": "8 km rustige duurloop (5:50/km)"
     },
     {
         "week": 12,
-        "maandag": "7 km tempo run (5:20/km)",
-        "woensdag": "Intervaltraining (8 x 400m snel (4:55-5:00/km), 200m wandel/rust)",
-        "vrijdag": "12 km rustige duurloop (6:00-6:20/km)"
+        "maandag": "6 km easy run (5:30/km)",
+        "woensdag": "Intervaltraining: 1 km inlopen, 3 x 1 km snel (5:15/km) met 3 min rust, 1 km uitlopen",
+        "vrijdag": "5 km rustige duurloop (5:50/km)"
     }
 ]
